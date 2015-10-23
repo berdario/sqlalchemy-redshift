@@ -7,6 +7,10 @@
   The `redshift_sqlalchemy` compatibility package will be removed
   in a future release.
   (`Issue #58 <https://github.com/sqlalchemy-redshift/sqlalchemy-redshift/pull/58>`_)
+- Fix reflection bug which caused incorrect column order for some
+  `CREATE TABLE` statements, particularly for columns with an `IDENTITY`
+  constraint.
+  (`Issue #60 <https://github.com/sqlalchemy-redshift/sqlalchemy-redshift/pull/60>`_)
 
 
 0.3.1 (2015-10-08)
