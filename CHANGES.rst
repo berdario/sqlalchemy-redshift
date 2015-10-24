@@ -7,6 +7,8 @@
   The `redshift_sqlalchemy` compatibility package will be removed
   in a future release.
   (`Issue #58 <https://github.com/sqlalchemy-redshift/sqlalchemy-redshift/pull/58>`_)
+- Add python 3.5 to the list of versions for integration tests.
+  (`Issue #61 <https://github.com/sqlalchemy-redshift/sqlalchemy-redshift/pull/61>`_)
 
 
 0.3.1 (2015-10-08)
